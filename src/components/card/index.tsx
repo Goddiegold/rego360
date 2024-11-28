@@ -10,7 +10,7 @@ import {
 import classes from './styles.module.css';
 
 export default function PropertyCard() {
-  const linkProps = { href: 'https://mantine.dev', target: '_blank', rel: 'noopener noreferrer' };
+  const linkProps = { href: `${window.location.origin}/property/122222`, target: '_blank', rel: 'noopener noreferrer' };
   const theme = useMantineTheme();
 
   return (
